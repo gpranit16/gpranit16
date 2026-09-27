@@ -285,7 +285,7 @@ National-Level Sustainathon
 
 <br><br>
 
-<sub>AI systems · retrieval · machine learning · full-stack products</sub>
+<sub>AI systems · retrieval · machine learning · full-stack development products</sub>
 
 </div>
 
