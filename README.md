@@ -277,33 +277,7 @@ National-Level Sustainathon
 
 ---
 
-## 08 / CURRENT FOCUS
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=1900&pause=600&color=C8820A&center=true&vCenter=true&width=850&height=40&lines=AGENTIC+AI;RAG+%2F+CRAG;LLM+APPLICATIONS;RETRIEVAL+SYSTEMS;MACHINE+LEARNING;FULL-STACK+AI+PRODUCTS" alt="Current Focus">
-
-<br><br>
-
-<sub>AI systems · retrieval · machine learning · full-stack development products</sub>
-
-</div>
-
----
-
-## 09 / GITHUB ACTIVITY
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=gpranit16&show_icons=true&hide_border=true&bg_color=0E0D0B&title_color=C8820A&text_color=C8BFA8&icon_color=C8820A&include_all_commits=true" height="165" alt="GitHub Stats">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gpranit16&layout=compact&hide_border=true&bg_color=0E0D0B&title_color=C8820A&text_color=C8BFA8" height="165" alt="Top Languages">
-
-</div>
-
----
-
-## 10 / CONNECT
+## 08 / CONNECT
 
 <div align="center">
 
