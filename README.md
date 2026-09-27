@@ -1,64 +1,84 @@
 <div align="center">
 
-# PRANIT KUMAR
+<img src="./assets/profile-hero.svg" width="100%" alt="Pranit Kumar — AI Engineer and Full-Stack Developer" />
 
-### AI Engineer × Full-Stack Developer
+</div>
 
-Building intelligent systems, AI-powered products, and practical software.
+<br>
 
-<p>
-  <a href="https://github.com/gpranit16">
-    <img src="https://img.shields.io/badge/GitHub-gpranit16-111111?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://linkedin.com/in/pranit-kumar-378342357">
-    <img src="https://img.shields.io/badge/LinkedIn-Pranit%20Kumar-111111?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:guptapranit34@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-111111?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-gpranit16-111111?style=flat-square&logo=github&logoColor=F5EFE0)](https://github.com/gpranit16)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pranit%20Kumar-111111?style=flat-square&logo=linkedin&logoColor=F5EFE0)](https://linkedin.com/in/pranit-kumar-378342357)
+[![Email](https://img.shields.io/badge/Email-Contact-111111?style=flat-square&logo=gmail&logoColor=F5EFE0)](mailto:guptapranit34@gmail.com)
 
 </div>
 
 ---
 
-## About
+## ABOUT
 
-I'm a Computer Science Engineering student focused on **AI engineering and full-stack development**. I enjoy building systems that combine **LLMs, agentic workflows, retrieval, machine learning, backend systems, and modern web applications**.
+I'm a Computer Science Engineering student at **BMS Institute of Technology and Management**, focused on **AI engineering and full-stack development**.
 
-My work ranges from **agentic AI workspaces and RAG systems** to **real-time collaboration platforms and ML-driven decision systems**.
-
-Currently exploring how to turn complex AI capabilities into reliable, usable products.
+I build systems around **LLMs, agentic workflows, RAG/CRAG, retrieval, machine learning, backend systems, and modern web applications** — with a focus on turning complex technical ideas into usable products.
 
 ---
 
-## What I Build
+## WHAT I BUILD
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### AI Systems
+### 01 / AGENTIC AI
 
-Agentic AI  
-LLM Applications  
-RAG / CRAG  
-Hybrid Retrieval  
-Embeddings & Vector Search  
-AI Workflows
+- LLM Applications
+- Agentic Workflows
+- RAG / CRAG
+- Tool Calling
+- Memory Systems
+- AI Automation
 
 </td>
 
-<td width="50%">
+<td width="50%" valign="top">
 
-### Software Systems
+### 02 / SOFTWARE SYSTEMS
 
-Full-Stack Applications  
-Backend APIs  
-Real-Time Systems  
-Database-Driven Products  
-Automation  
-Production-Oriented Engineering
+- Full-Stack Applications
+- Backend APIs
+- Real-Time Systems
+- Database Systems
+- AI Integrations
+- Production-Oriented Engineering
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 03 / RETRIEVAL
+
+- Embeddings
+- Hybrid Retrieval
+- Vector Search
+- pgvector
+- Reranking
+- Grounded Generation
+
+</td>
+
+<td width="50%" valign="top">
+
+### 04 / MACHINE LEARNING
+
+- Predictive Analytics
+- Classification
+- Feature Engineering
+- Explainability
+- Risk Analysis
+- Decision Systems
 
 </td>
 </tr>
@@ -66,115 +86,101 @@ Production-Oriented Engineering
 
 ---
 
-## Featured Projects
+## FEATURED PROJECTS
 
 ### TARK AI
 **Agentic AI Workspace & Personal OS**
 
-A full-stack AI workspace combining conversational AI, research, coding, document understanding, memory, productivity workflows, and real-world tool actions.
+A full-stack AI workspace combining **conversational AI, research, coding, document understanding, memory, productivity, and real-world tool actions** in one system.
+
+**Core:**  
+`Agentic AI` · `RAG / CRAG` · `Hybrid Retrieval` · `Memory` · `Tool Calling` · `Multi-Model Routing`
 
 **Built with:**  
-`Python` `FastAPI` `React` `PostgreSQL` `pgvector` `LangChain` `LangGraph` `MCP`
+`React` · `Python` · `FastAPI` · `PostgreSQL` · `pgvector` · `LangGraph` · `MCP` · `Docker`
 
-**Highlights**
-- Multi-model LLM routing, agentic workflows, RAG/CRAG, hybrid retrieval, embeddings, reranking, and persistent memory.
-- Real-time streaming, grounded responses, tool calling, research and coding workflows.
-- Integrations with Google Calendar, Tasks, Reminders, Goals and GitHub through MCP-based actions.
-
-<p>
-<a href="https://github.com/gpranit16/tark-ai">
-<img src="https://img.shields.io/badge/View%20Repository-111111?style=flat-square&logo=github&logoColor=white" />
-</a>
-</p>
+[Repository →](https://github.com/gpranit16/tark-ai)
 
 ---
 
 ### SYNCORA
 **AI-Powered Team Collaboration & Productivity Platform**
 
-A full-stack collaboration platform combining real-time communication, meetings, tasks, and AI-assisted meeting intelligence in one workspace.
+A full-stack collaboration system combining **real-time messaging, direct communication, meetings, Kanban tasks, WebRTC calling, and AI-powered meeting intelligence**.
+
+**Core:**  
+`Real-Time Collaboration` · `Messaging` · `WebRTC` · `AI Meeting Intelligence` · `Task Management`
 
 **Built with:**  
-`React` `Node.js` `Express` `MySQL` `Socket.io` `WebRTC` `NVIDIA Nemotron` `REST APIs` `JWT`
+`React` · `TypeScript` · `Node.js` · `Express` · `MySQL` · `Socket.io` · `WebRTC` · `NVIDIA Nemotron`
 
-**Highlights**
-- Real-time channel and direct messaging with low-latency bi-directional communication.
-- WebRTC audio/video meetings, Kanban task management, authentication and role-based access.
-- AI meeting intelligence that processes transcripts and chat history into summaries, decisions, blockers, and actionable tasks.
-
-<p>
-<a href="https://github.com/gpranit16/syncora">
-<img src="https://img.shields.io/badge/View%20Repository-111111?style=flat-square&logo=github&logoColor=white" />
-</a>
-</p>
+[Repository →](https://github.com/gpranit16/syncora)
 
 ---
 
 ### CHURN REAPER
 **Customer Retention & Churn Intelligence System**
 
-An AI/ML decision system that predicts customer churn, explains risk drivers, evaluates retention offers, and estimates the financial value of intervention.
+An AI/ML decision system that moves from **churn prediction and risk explanation to retention-offer evaluation and ROI-based intervention decisions**.
+
+**Core:**  
+`Churn Prediction` · `XGBoost` · `TreeSHAP` · `Risk Attribution` · `Retention Strategy` · `ROI Analysis`
 
 **Built with:**  
-`Python` `React` `FastAPI` `XGBoost` `Scikit-Learn` `TreeSHAP` `NVIDIA Nemotron` `Tailwind CSS`
+`Python` · `React` · `FastAPI` · `XGBoost` · `Scikit-Learn` · `TreeSHAP` · `NVIDIA Nemotron`
 
-**Highlights**
-- End-to-end churn prediction using behavioral and transactional customer data.
-- XGBoost classification with feature engineering and TreeSHAP-based risk attribution.
-- AI-assisted retention strategy generation with financial modeling, customer lifetime value, expected profit at risk, and projected ROI.
-
-<p>
-<a href="https://github.com/gpranit16/churn-reaper">
-<img src="https://img.shields.io/badge/View%20Repository-111111?style=flat-square&logo=github&logoColor=white" />
-</a>
-</p>
+[Repository →](https://github.com/gpranit16/churn-reaper)
 
 ---
 
-## Technical Stack
+## TECHNICAL STACK
 
-### Languages
+### LANGUAGES
+
 `C` `C++` `Python` `JavaScript`
 
-### AI Systems
+### AI SYSTEMS
+
 `LangChain` `LangGraph` `OpenAI SDK` `RAG / CRAG` `Embeddings` `Vector Search`
 
-### Backend & Data
+### BACKEND & DATA
+
 `FastAPI` `Node.js` `Express.js` `PostgreSQL` `MongoDB` `pgvector` `REST APIs`
 
-### Infrastructure & Tools
+### INFRASTRUCTURE & TOOLS
+
 `Docker` `Git & GitHub` `Vercel` `Render` `Postman`
 
 ---
 
-## Experience
+## EXPERIENCE
 
-### Full-Stack Development Intern — VeloxCodeAgency
-**Jun 2026**
+### Full-Stack Development Intern
+**VeloxCodeAgency** · June 2026
 
-Worked across full-stack development workflows during a focused internship, contributing to implementation, debugging, feature development, and delivery.
+Worked across full-stack development workflows including implementation, debugging, feature development, and delivery.
 
-[Certificate ↗](https://drive.google.com/file/d/1MJuRGNHNQLjjpQ9AkhTeTl3RlBvZgKb6/view?usp=sharing)
+[Certificate →](https://drive.google.com/file/d/1MJuRGNHNQLjjp9Q9AkhTeTl3RlBvZgKb6/view?usp=sharing)
 
-### Full Stack Developer (Intern) — SuccessPath Classes
-**Jan 2026 – Feb 2026**
+### Full Stack Developer (Intern)
+**SuccessPath Classes** · January 2026 – February 2026
 
-Contributed to full-stack development work across feature implementation, debugging, and deployment workflows.
+Contributed to full-stack development workflows across feature implementation, debugging, and deployment.
 
-[Certificate ↗](https://drive.google.com/file/d/193ISjwIzy7bkkUmtbc-QTjghxW0ASUvi/view?usp=sharing)
-
----
-
-## Education
-
-### BMS Institute of Technology and Management
-**B.E. in Computer Science Engineering**  
-Bengaluru, India · **CGPA: 8.72**  
-2024 – 2028
+[Certificate →](https://drive.google.com/file/d/193ISjwIzy7bkkUmtbc-QTjghxW0ASUvi/view?usp=sharing)
 
 ---
 
-## Achievements
+## EDUCATION
+
+**BMS Institute of Technology and Management**  
+B.E. Computer Science Engineering · Bengaluru, India
+
+**CGPA:** 8.72 · **2024 – 2028**
+
+---
+
+## ACHIEVEMENTS
 
 - **Best Innovation** — Agentic AI Sprint Workshop + Hackathon, GenAI Club, BMSIT&M
 - **3rd Place + ₹10,000** — National-Level Sustainathon
@@ -182,13 +188,12 @@ Bengaluru, India · **CGPA: 8.72**
 
 ---
 
-## Current Focus
+## CURRENT FOCUS
 
 ```text
-AI Engineering
-├── Agentic AI
-├── RAG / CRAG
-├── LLM Systems
-├── Retrieval & Vector Search
-├── Machine Learning
-└── Full-Stack AI Products
+AGENTIC AI
+RAG / CRAG
+LLM APPLICATIONS
+RETRIEVAL SYSTEMS
+MACHINE LEARNING
+FULL-STACK AI PRODUCTS
