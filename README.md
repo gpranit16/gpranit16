@@ -2,19 +2,19 @@
 
 <img src="./profile-hero.svg" width="100%" alt="Pranit Kumar — AI Engineer × Full-Stack Developer">
 
-<br>
+<br><br>
 
-<p>
 <a href="https://github.com/gpranit16">
-<img src="https://img.shields.io/badge/GITHUB-gpranit16-0E0D0B?style=for-the-badge&logo=github&logoColor=F5EFE0" alt="GitHub">
+<img src="https://img.shields.io/badge/GITHUB-GPRANIT16-141310?style=for-the-badge&logo=github&logoColor=F5EFE0" alt="GitHub">
 </a>
 <a href="https://linkedin.com/in/pranit-kumar-378342357">
-<img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0E0D0B?style=for-the-badge&logo=linkedin&logoColor=F5EFE0" alt="LinkedIn">
+<img src="https://img.shields.io/badge/LINKEDIN-CONNECT-141310?style=for-the-badge&logo=linkedin&logoColor=F5EFE0" alt="LinkedIn">
 </a>
 <a href="mailto:guptapranit34@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-CONTACT-0E0D0B?style=for-the-badge&logo=gmail&logoColor=F5EFE0" alt="Email">
+<img src="https://img.shields.io/badge/EMAIL-CONTACT-141310?style=for-the-badge&logo=gmail&logoColor=F5EFE0" alt="Email">
 </a>
-</p>
+
+<br><br>
 
 <sub>COMPUTER SCIENCE ENGINEERING · BMSIT&M · BENGALURU, INDIA</sub>
 
@@ -24,11 +24,48 @@
 
 ## 01 / PROFILE
 
+<table>
+<tr>
+
+<td width="58%" valign="top">
+
+### AI ENGINEER × FULL-STACK DEVELOPER
+
 I'm a **Computer Science Engineering student at BMS Institute of Technology and Management**, focused on **AI engineering and full-stack development**.
 
 I build systems around **LLMs, agentic workflows, RAG/CRAG, retrieval, machine learning, backend engineering, and real-time applications**.
 
 I enjoy taking ideas from the **AI layer → backend → product** and turning them into usable software.
+
+<br>
+
+`AI SYSTEMS` · `SOFTWARE ENGINEERING` · `REAL-WORLD PRODUCTS`
+
+</td>
+
+<td width="42%" valign="top">
+
+### BUILD SIGNAL
+
+**01 · CURRENT ROLE**  
+AI Engineer  
+Full-Stack Developer
+
+**02 · CORE FOCUS**  
+Agentic AI  
+RAG / CRAG  
+LLM Applications  
+Machine Learning
+
+**03 · SELECTED BUILDS**  
+TARK AI  
+SYNCORA  
+CHURN REAPER
+
+</td>
+
+</tr>
+</table>
 
 ---
 
@@ -155,21 +192,33 @@ Evaluates retention offers using customer lifetime value, expected profit at ris
 
 ## 04 / TECHNICAL STACK
 
+<div align="center">
+
 ### LANGUAGES
 
-`C` `C++` `Python` `JavaScript`
+<img src="https://skillicons.dev/icons?i=c,cpp,python,js&theme=dark&perline=4" alt="Languages">
+
+<br><br>
+
+### FRONTEND · BACKEND · DATA
+
+<img src="https://skillicons.dev/icons?i=react,fastapi,nodejs,express,postgres,mongodb&theme=dark&perline=6" alt="Frontend Backend Data">
+
+<br><br>
+
+### INFRASTRUCTURE · TOOLS
+
+<img src="https://skillicons.dev/icons?i=docker,git,github,vercel,postman&theme=dark&perline=5" alt="Infrastructure and Tools">
+
+</div>
 
 ### AI SYSTEMS
 
-`LangChain` `LangGraph` `OpenAI SDK` `RAG / CRAG` `Embeddings` `Vector Search`
+`LangChain` · `LangGraph` · `OpenAI SDK` · `RAG / CRAG` · `Embeddings` · `Vector Search`
 
 ### BACKEND & DATA
 
-`FastAPI` `Node.js` `Express.js` `PostgreSQL` `MongoDB` `pgvector` `REST APIs`
-
-### INFRASTRUCTURE & TOOLS
-
-`Docker` `Git & GitHub` `Vercel` `Render` `Postman`
+`FastAPI` · `Node.js` · `Express.js` · `PostgreSQL` · `MongoDB` · `pgvector` · `REST APIs`
 
 ---
 
@@ -207,7 +256,7 @@ Bengaluru, India · **CGPA: 8.72** · 2024–2028
 
 <td width="50%" valign="top">
 
-**BEST INNOVATION**
+### BEST INNOVATION
 
 Agentic AI Sprint Workshop + Hackathon  
 GenAI Club · BMSIT&M
@@ -216,9 +265,10 @@ GenAI Club · BMSIT&M
 
 <td width="50%" valign="top">
 
-**3RD PLACE + ₹10,000**
+### 3RD PLACE
 
-National-Level Sustainathon
+National-Level Sustainathon  
+**₹10,000 Prize**
 
 </td>
 
@@ -231,9 +281,9 @@ National-Level Sustainathon
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=1900&pause=600&color=C8820A&center=true&vCenter=true&width=850&height=38&lines=AGENTIC+AI;RAG+%2F+CRAG;LLM+APPLICATIONS;RETRIEVAL+SYSTEMS;MACHINE+LEARNING;FULL-STACK+AI+PRODUCTS" alt="Current Focus">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=1900&pause=600&color=C8820A&center=true&vCenter=true&width=850&height=40&lines=AGENTIC+AI;RAG+%2F+CRAG;LLM+APPLICATIONS;RETRIEVAL+SYSTEMS;MACHINE+LEARNING;FULL-STACK+AI+PRODUCTS" alt="Current Focus">
 
-<br>
+<br><br>
 
 <sub>AI systems · retrieval · machine learning · full-stack products</sub>
 
@@ -241,7 +291,7 @@ National-Level Sustainathon
 
 ---
 
-## 09 / GITHUB
+## 09 / GITHUB ACTIVITY
 
 <div align="center">
 
@@ -275,6 +325,6 @@ National-Level Sustainathon
 
 <br><br>
 
-**BUILD · SHIP · IMPROVE · REPEAT.**
+<strong>BUILD · SHIP · IMPROVE · REPEAT.</strong>
 
 </div>
