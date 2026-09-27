@@ -1,0 +1,397 @@
+<svg width="1180" height="450" viewBox="0 0 1180 450"
+     fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Main amber gradient -->
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0C36A">
+        <animate attributeName="stop-color"
+                 values="#F0C36A;#C8820A;#D4960F;#F0C36A"
+                 dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#C8820A">
+        <animate attributeName="stop-color"
+                 values="#C8820A;#D4960F;#F0C36A;#C8820A"
+                 dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Soft amber glow -->
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+
+    <!-- Clip for scanline -->
+    <clipPath id="clip">
+      <rect x="0" y="0" width="1180" height="450" rx="22"/>
+    </clipPath>
+
+    <!-- Fade / reveal -->
+    <linearGradient id="panelFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#141310"/>
+      <stop offset="100%" stop-color="#0E0D0B"/>
+    </linearGradient>
+
+  </defs>
+
+  <!-- ===================================================== -->
+  <!-- BASE -->
+  <!-- ===================================================== -->
+
+  <rect width="1180" height="450" rx="22" fill="#0E0D0B"/>
+  <rect x="1" y="1" width="1178" height="448" rx="21"
+        stroke="#F5EFE0" stroke-opacity="0.08"/>
+
+  <!-- subtle inner frame -->
+  <rect x="18" y="18" width="1144" height="414" rx="16"
+        stroke="#C8820A" stroke-opacity="0.08"/>
+
+  <!-- ambient glow -->
+  <circle cx="940" cy="105" r="130"
+          fill="#C8820A" fill-opacity="0.045"
+          filter="url(#softGlow)">
+    <animate attributeName="opacity"
+             values="0.25;0.5;0.25"
+             dur="5s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ===================================================== -->
+  <!-- LEFT SIDE -->
+  <!-- ===================================================== -->
+
+  <!-- technical index -->
+  <g font-family="monospace"
+     font-size="11"
+     letter-spacing="3"
+     fill="#8A8070">
+
+    <text x="58" y="64">
+      01 / PROFILE
+    </text>
+
+    <text x="58" y="88"
+          fill="#C8820A">
+      AI ENGINEER × FULL-STACK DEVELOPER
+    </text>
+  </g>
+
+  <!-- Name -->
+  <text x="58" y="160"
+        fill="#F5EFE0"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="55"
+        font-weight="700"
+        letter-spacing="-1">
+    PRANIT KUMAR
+  </text>
+
+  <!-- subtle amber underline -->
+  <rect x="60" y="180" width="135" height="2" rx="1"
+        fill="url(#amber)">
+    <animate attributeName="width"
+             values="70;135;110;135"
+             dur="4s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- positioning statement -->
+  <g font-family="Arial, Helvetica, sans-serif"
+     font-size="17"
+     fill="#C8BFA8">
+
+    <text x="58" y="224">
+      Building intelligent systems,
+    </text>
+
+    <text x="58" y="251">
+      AI-powered products, and practical
+    </text>
+
+    <text x="58" y="278">
+      full-stack software.
+    </text>
+  </g>
+
+  <!-- technical keywords -->
+  <g font-family="monospace"
+     font-size="11"
+     letter-spacing="2"
+     fill="#C8820A">
+
+    <text x="58" y="328">
+      AGENTIC AI
+    </text>
+
+    <text x="180" y="328"
+          fill="#5A5248">
+      ·
+    </text>
+
+    <text x="195" y="328">
+      RAG / CRAG
+    </text>
+
+    <text x="320" y="328"
+          fill="#5A5248">
+      ·
+    </text>
+
+    <text x="337" y="328">
+      MACHINE LEARNING
+    </text>
+  </g>
+
+  <!-- footer line -->
+  <line x1="58" y1="365" x2="500" y2="365"
+        stroke="#F5EFE0"
+        stroke-opacity="0.07"/>
+
+  <g font-family="monospace"
+     font-size="10"
+     letter-spacing="2"
+     fill="#5A5248">
+
+    <text x="58" y="390">
+      BMSIT&amp;M · COMPUTER SCIENCE ENGINEERING
+    </text>
+
+    <text x="58" y="411">
+      BUILD · SHIP · IMPROVE · REPEAT
+    </text>
+
+  </g>
+
+  <!-- ===================================================== -->
+  <!-- RIGHT TERMINAL -->
+  <!-- ===================================================== -->
+
+  <rect x="610" y="42"
+        width="510"
+        height="365"
+        rx="14"
+        fill="url(#panelFade)"
+        stroke="#F5EFE0"
+        stroke-opacity="0.09"/>
+
+  <!-- terminal header -->
+  <rect x="610" y="42"
+        width="510"
+        height="46"
+        rx="14"
+        fill="#141310"/>
+
+  <line x1="610" y1="88" x2="1120" y2="88"
+        stroke="#F5EFE0"
+        stroke-opacity="0.07"/>
+
+  <!-- window dots -->
+  <circle cx="636" cy="65" r="4" fill="#C8820A">
+    <animate attributeName="opacity"
+             values="1;.45;1"
+             dur="2s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="650" cy="65" r="4" fill="#F5EFE0" fill-opacity="0.18"/>
+  <circle cx="664" cy="65" r="4" fill="#F5EFE0" fill-opacity="0.10"/>
+
+  <text x="690" y="70"
+        font-family="monospace"
+        font-size="11"
+        letter-spacing="2"
+        fill="#8A8070">
+    PRANIT / SYSTEM
+  </text>
+
+  <!-- terminal content -->
+
+  <g font-family="monospace"
+     font-size="13">
+
+    <!-- command -->
+    <text x="638" y="120" fill="#C8820A">
+      $ whoami
+    </text>
+
+    <text x="638" y="146" fill="#F5EFE0">
+      pranit-kumar
+    </text>
+
+    <!-- sequential info -->
+    <g opacity="0">
+      <text x="638" y="180" fill="#8A8070">role</text>
+      <text x="742" y="180" fill="#F5EFE0">AI Engineer / Full-Stack Developer</text>
+
+      <animate attributeName="opacity"
+               values="0;1"
+               begin="0.7s"
+               dur="0.5s"
+               fill="freeze"/>
+    </g>
+
+    <g opacity="0">
+      <text x="638" y="208" fill="#8A8070">focus</text>
+      <text x="742" y="208" fill="#F5EFE0">Agentic AI · RAG · ML</text>
+
+      <animate attributeName="opacity"
+               values="0;1"
+               begin="1.2s"
+               dur="0.5s"
+               fill="freeze"/>
+    </g>
+
+    <g opacity="0">
+      <text x="638" y="236" fill="#8A8070">systems</text>
+      <text x="742" y="236" fill="#F5EFE0">AI · Backend · Full-Stack</text>
+
+      <animate attributeName="opacity"
+               values="0;1"
+               begin="1.7s"
+               dur="0.5s"
+               fill="freeze"/>
+    </g>
+
+    <g opacity="0">
+      <text x="638" y="264" fill="#8A8070">building</text>
+      <text x="742" y="264" fill="#C8820A">TARK AI · SYNCORA · CHURN REAPER</text>
+
+      <animate attributeName="opacity"
+               values="0;1"
+               begin="2.2s"
+               dur="0.5s"
+               fill="freeze"/>
+    </g>
+
+    <!-- terminal prompt -->
+    <g opacity="0">
+      <text x="638" y="310" fill="#C8820A">
+        $
+      </text>
+
+      <text x="658" y="310" fill="#C8BFA8">
+        building the next system
+      </text>
+
+      <rect x="658" y="318" width="8" height="15"
+            fill="#C8820A">
+        <animate attributeName="opacity"
+                 values="1;0;1"
+                 dur="1s"
+                 repeatCount="indefinite"/>
+      </rect>
+
+      <animate attributeName="opacity"
+               values="0;1"
+               begin="2.8s"
+               dur="0.5s"
+               fill="freeze"/>
+    </g>
+
+  </g>
+
+  <!-- ===================================================== -->
+  <!-- SYSTEM GRAPH -->
+  <!-- ===================================================== -->
+
+  <g stroke="#C8820A"
+     stroke-opacity="0.16"
+     stroke-width="1">
+
+    <line x1="940" y1="345" x2="1005" y2="325"/>
+    <line x1="1005" y1="325" x2="1070" y2="345"/>
+    <line x1="940" y1="345" x2="1005" y2="370"/>
+    <line x1="1005" y1="370" x2="1070" y2="345"/>
+
+  </g>
+
+  <!-- graph nodes -->
+
+  <g fill="#C8820A">
+
+    <circle cx="940" cy="345" r="3" filter="url(#glow)">
+      <animate attributeName="r"
+               values="3;4;3"
+               dur="2.5s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1005" cy="325" r="3"/>
+
+    <circle cx="1070" cy="345" r="3"/>
+
+    <circle cx="1005" cy="370" r="3">
+      <animate attributeName="opacity"
+               values=".35;1;.35"
+               dur="2s"
+               repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+
+  <!-- ===================================================== -->
+  <!-- SCANLINE -->
+  <!-- ===================================================== -->
+
+  <rect x="0" y="-8"
+        width="1180"
+        height="2"
+        fill="#D4960F"
+        fill-opacity="0.08"
+        clip-path="url(#clip)">
+    <animate attributeName="y"
+             values="-8;458"
+             dur="7s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ===================================================== -->
+  <!-- AMBIENT DATA POINTS -->
+  <!-- ===================================================== -->
+
+  <g fill="#C8820A">
+
+    <circle cx="535" cy="110" r="2">
+      <animate attributeName="opacity"
+               values=".15;.7;.15"
+               dur="3s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="550" cy="140" r="1.5">
+      <animate attributeName="opacity"
+               values=".1;.5;.1"
+               dur="4s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="530" cy="300" r="1.5">
+      <animate attributeName="opacity"
+               values=".1;.6;.1"
+               dur="3.5s"
+               repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+
+  <!-- subtle corner metadata -->
+
+  <text x="1090" y="425"
+        font-family="monospace"
+        font-size="9"
+        letter-spacing="2"
+        text-anchor="end"
+        fill="#5A5248">
+    01 / 01
+  </text>
+
+</svg>
